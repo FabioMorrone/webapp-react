@@ -29,7 +29,7 @@ export default function Home() {
                         {movies.map(movie => (
                             <div className="col" key={movie.id}>
                                 <Link to={`/SingoloFilm/${movie.id}`} className="text-decoration-none">
-                                    <div className="card h-100 shadow-sm bg-info">
+                                    <div className="card h-100 shadow-lg bg-emphasis">
                                         <div className="position-relative">
                                             <img
                                                 className="card-img-top"

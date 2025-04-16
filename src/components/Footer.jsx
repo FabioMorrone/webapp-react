@@ -2,7 +2,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className="bg-danger text-center p-3">
+            <div className="bg-dark text-center p-3">
 
                 <ul className="nav justify-content-start flex-column">
                     <li className="nav-item">
