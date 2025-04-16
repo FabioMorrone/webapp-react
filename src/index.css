@@ -1,2 +1,10 @@
 @import 'bootstrap';
-@import 'bootstrap-icons'
+@import 'bootstrap-icons';
+
+body {
+    background-color: greenyellow;
+}
+
+main {
+    min-height: 100vh;
+}

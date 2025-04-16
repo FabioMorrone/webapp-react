@@ -2,9 +2,9 @@ export default function Footer() {
 
     return (
         <>
-            <div className="bg-light">
-                
-                <ul className="nav justify-content-start flex-column ">
+            <div className="bg-danger text-center p-3">
+
+                <ul className="nav justify-content-start flex-column">
                     <li className="nav-item">
                         <a className="nav-link" href="#" aria-current="page">i film del momento</a>
                     </li>
