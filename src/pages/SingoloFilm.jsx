@@ -29,7 +29,7 @@ export default function film() {
                     <div className="container">
                         <div className="row row-cols-1 row-cols-sm-2 g-4">
                             <div className="col-12 col-md-5">
-                                <img className="img-fluid" src={`http://localhost:3000/img/${singoloFIlm.image}`} alt={singoloFIlm.title} />
+                                <img className="img-fluid shadow-xl" src={`http://localhost:3000/img/${singoloFIlm.image}`} alt={singoloFIlm.title} />
                             </div>
                             <div className="col-12 col-md-7">
 
@@ -40,7 +40,7 @@ export default function film() {
                                 <div className="row g-4 mt-3">
                                     {singoloFIlm.reviews && singoloFIlm.reviews.map((recensione) => (
                                         <div className="col-12 col-md-6" key={recensione.id}>
-                                            <div className="card  text-dark shadow-sm">
+                                            <div className="card  text-dark shadow-lg bg-emphasis">
                                                 <div className="card-body bg-emphasis">
                                                     <h4 className="card-title">USERNAME: {recensione.name}</h4>
                                                     <p className="card-text">RECENSIONE: {recensione.text}</p>
