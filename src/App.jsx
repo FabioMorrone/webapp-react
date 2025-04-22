@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { useState } from "react"
 
 
-import FilmContext from "./contexts/PostContext"
+
+
 import Home from "./pages/Home"
 import SingoloFilm from "./pages/SingoloFilm"
 import DefoultLayout from "./layout/DefoultLayout"
