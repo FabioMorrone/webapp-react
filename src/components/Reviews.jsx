@@ -58,7 +58,7 @@ export default function Reviews({ movieId, onReviewSubmit }) {
                         ></textarea>
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">voto da (1-5)</label>
+                        <label className="form-label">voto da (0-5)</label>
                         <input
                             type="number"
                             className="form-control"
