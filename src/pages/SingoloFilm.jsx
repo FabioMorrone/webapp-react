@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import Reviews from "../components/Reviews"
+import GlobalContext from "../contexts/GlobalContext"
+import { useContext } from "react"
 
 export default function Singolofilm() {
     const [singoloFIlm, setsingoloFilm] = useState([])
-
+    const { setIsLoading } = useContext(GlobalContext)
 
 
     const { id } = useParams()
@@ -16,6 +18,9 @@ export default function Singolofilm() {
             .then(data => {
                 setsingoloFilm(data)
 
+
+            }).finally(() => {
+                setIsLoading(false)
             })
 
     }, [id])
